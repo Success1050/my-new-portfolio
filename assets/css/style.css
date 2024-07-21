@@ -107,6 +107,7 @@ svg{
 .container {
   max-width: 1120px;
   margin-inline: auto;
+  overflow: hidden;
 }
 
 .grid {
@@ -373,6 +374,8 @@ nav {
 .skills-content,
 .skills-group {
   display: grid;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .skills-content {
