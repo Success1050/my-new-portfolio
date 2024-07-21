@@ -661,6 +661,16 @@ nav {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .projects-img {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    /* transform: translateX(-50%); */
+    border-top-right-radius: 1rem;
+  }
+}
+
 @media screen and (min-width: 576px) {
   .home-container,
   .about-container,
